@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .circle-move {
+        @apply ml-8 transition-all !important;
+    }   
+}
+
+:root {
+    --primary-color-gradient1: hsl(236, 72%, 79%);
+    --primary-color-gradient2: hsl(237, 63%, 64%);
+
+    --Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+    --Light-Grayish-Blue: hsl(234, 14%, 74%);
+    --Grayish-Blue: hsl(233, 13%, 49%);
+    --Dark-Grayish-Blue: hsl(232, 13%, 33%);
+    --white: hsla(360, 100%, 100%, 1);
+    --transparent: rgba(0, 0, 0, 0);
+}
